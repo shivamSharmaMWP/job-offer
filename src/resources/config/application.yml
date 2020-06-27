@@ -1,0 +1,22 @@
+server:
+  port: 5000
+
+
+spring:
+
+  # database confs
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    platform: postgres
+    username: postgres
+    password: postgres
+
+  # JPA sql generations confs
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+ 
+  flyway:
+    enabled: false

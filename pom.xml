@@ -1,0 +1,16 @@
+
+
+<dependencies>
+
+	<!--
+		spring core
+		spring web
+		spring jpa
+		jackson data binding
+		hibernate postgres jpa implementation
+		
+		lombok for @Getter and @Setter
+		
+		
+	-->
+<dependencies>
